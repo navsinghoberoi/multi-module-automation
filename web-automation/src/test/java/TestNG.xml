@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Demo tests suite">
+    <listeners>
+        <listener class-name="utility.BasicListener"></listener>
+    </listeners>
     <test name="Web automation sanity tests">
         <classes>
             <class name="tests.WebTests"/>

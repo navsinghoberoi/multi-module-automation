@@ -11,4 +11,16 @@
 
     <artifactId>web-automation</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.automation.api</groupId>
+            <artifactId>api-automation</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../jar/api-automation-1.0.0.jar</systemPath>
+            <type>jar</type>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
+
 </project>
